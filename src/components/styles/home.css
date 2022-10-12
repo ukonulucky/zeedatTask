@@ -1,0 +1,54 @@
+.home {
+  display: block;
+  height: 100vh;
+  background-color: yellow;
+  transition: all 1s ease-in;
+}
+ul {
+  padding: 50px;
+}
+.home ul li {
+  list-style: none;
+}
+.spinner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .toggle {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background-color: rgb(221, 221, 221);
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+.toggle span {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.animateRight {
+  transform: translateX(30px);
+}
+.homeBlue {
+  background-color: blue;
+}
+.error {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 20px;
+  padding: 0 20px;
+}
