@@ -1,8 +1,10 @@
 .home {
-  display: block;
+  display: flex;
   height: 100vh;
   background-color: yellow;
   transition: all 1s ease-in;
+  align-items: center;
+  justify-content: center;
 }
 ul {
   padding: 50px;
@@ -40,7 +42,7 @@ ul {
   transform: translateX(30px);
 }
 .homeBlue {
-  background-color: blue;
+  background-color: black;
 }
 .error {
   width: 100%;
@@ -51,4 +53,17 @@ ul {
   color: red;
   font-size: 20px;
   padding: 0 20px;
+}
+td {
+  color: inherit;
+  font-size: 18px;
+}
+.text {
+  color: white;
+  font-size: 18px;
+}
+.select {
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
